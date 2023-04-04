@@ -9,3 +9,11 @@
 	3. Custom Telemetry Processors in Application Insights:  https://docs.microsoft.com/en-us/azure/azure-monitor/app/custom-operations-tracking#telemetry-processors
 	4. Application Insights SDK for .NET:  https://github.com/microsoft/ApplicationInsights-dotnet 
 ![image](https://user-images.githubusercontent.com/109315042/229919535-a25eaa9c-2dcc-4e53-9914-e7c89e30a255.png)
+
+## Metrics Sources
+• TotalProcessorTime Property:  https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.process.totalprocessortime?view=net-5.0
+• UserProcessorTime Property:  https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.process.userprocessortime?view=net-5.0
+• WorkingSet64 Property:  https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.process.workingset64?view=net-5.0
+• Parallel.ForEach() Method:  https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.parallel.foreach?view=net-5.0
+• Application Insights Metrics:  https://docs.microsoft.com/en-us/azure/azure-monitor/app/api-custom-events-metrics#metrics
+![image](https://user-images.githubusercontent.com/109315042/229919968-1d5f43cf-2974-40f3-a14e-0bd929579b1b.png)
