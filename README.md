@@ -11,9 +11,9 @@
 ![image](https://user-images.githubusercontent.com/109315042/229919535-a25eaa9c-2dcc-4e53-9914-e7c89e30a255.png)
 
 ## Metrics Sources
-• TotalProcessorTime Property:  https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.process.totalprocessortime?view=net-5.0
-• UserProcessorTime Property:  https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.process.userprocessortime?view=net-5.0
-• WorkingSet64 Property:  https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.process.workingset64?view=net-5.0
-• Parallel.ForEach() Method:  https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.parallel.foreach?view=net-5.0
-• Application Insights Metrics:  https://docs.microsoft.com/en-us/azure/azure-monitor/app/api-custom-events-metrics#metrics
+1. TotalProcessorTime Property:  https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.process.totalprocessortime?view=net-5.0
+2. UserProcessorTime Property:  https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.process.userprocessortime?view=net-5.0
+3.  WorkingSet64 Property:  https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.process.workingset64?view=net-5.0
+4. Parallel.ForEach() Method:  https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.parallel.foreach?view=net-5.0
+5. Application Insights Metrics:  https://docs.microsoft.com/en-us/azure/azure-monitor/app/api-custom-events-metrics#metrics
 ![image](https://user-images.githubusercontent.com/109315042/229919968-1d5f43cf-2974-40f3-a14e-0bd929579b1b.png)
