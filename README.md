@@ -1,6 +1,6 @@
 # WebJobs Instrumentation example
 ### This is an example WebJob that have application inisghts instrutmentation using Application Insights SDK
-### In this example You have the defaukt counters in the performanceCounters table and it will log the webjob name as well.
+### In this example You have the default counters in the performanceCounters table and it will log the webjob name as well.
 ### Custom metrics are also capturing the webjob name and example metrics
 ## Important resources:
 1. Microsoft Docs - Application Insights:  https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview
