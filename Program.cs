@@ -24,10 +24,6 @@ class Program
         /// Finally, the Build method is called to create an instance of the telemetry processor chain that can be used to process telemetry data.
         /// Refer to the Class MyTelemetryProcessor()
 
-        configuration.TelemetryProcessorChainBuilder
-            .Use((next) => new MyTelemetryProcessor(next))
-            .Build();
-
         ///////////////////////////////////////////////////////////////////////
 
         var perfCollectorModule = new PerformanceCollectorModule();
@@ -128,19 +124,4 @@ public class WebJobNameTelemetryProcessor : ITelemetryProcessor
         _next.Process(telemetry);
     }
 }
-//// MyTelemetryProcessor Class ///////////
-public class MyTelemetryProcessor : ITelemetryProcessor
-{
-    private readonly ITelemetryProcessor _next;
 
-    public MyTelemetryProcessor(ITelemetryProcessor next)
-    {
-        _next = next;
-    }
-
-    public void Process(ITelemetry telemetry)
-    {
-        // Your custom telemetry processing logic here...
-        _next.Process(telemetry);
-    }
-}
